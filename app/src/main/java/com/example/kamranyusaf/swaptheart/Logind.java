@@ -36,6 +36,7 @@ public class Logind extends Activity implements OnClickListener {
     @Override
     public void onClick(View v) {
         if(true){
+            System.out.println("Hi");
 
         }
 
