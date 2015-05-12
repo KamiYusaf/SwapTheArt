@@ -6,19 +6,15 @@ package com.example.kamranyusaf.swaptheart;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
 import com.example.ibrahim.swapart1.R;
-import com.parse.Parse;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
@@ -31,7 +27,7 @@ import java.io.FileInputStream;
  */
 public class GemBillede extends Activity implements View.OnClickListener {
     ImageView image;
-    EditText navn,størrelse,værdi;
+    EditText navn,størrelse,værdi;//hu
     Button gemBtn;
     Bitmap bitmap;
 
